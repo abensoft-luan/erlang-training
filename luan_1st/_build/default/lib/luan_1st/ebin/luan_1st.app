@@ -1,0 +1,10 @@
+{application,luan_1st,
+             [{description,"An OTP application"},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {mod,{luan_1st_app,[]}},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {modules,[luan_1st,luan_1st_app,luan_1st_sup]},
+              {licenses,["Apache-2.0"]},
+              {links,[]}]}.

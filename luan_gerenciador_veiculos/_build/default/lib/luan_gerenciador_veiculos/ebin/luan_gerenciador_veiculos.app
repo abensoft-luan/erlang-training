@@ -1,0 +1,12 @@
+{application,luan_gerenciador_veiculos,
+             [{description,"An OTP application"},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {mod,{luan_gerenciador_veiculos_app,[]}},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {modules,[luan_gerenciador_veiculos,
+                        luan_gerenciador_veiculos_app,
+                        luan_gerenciador_veiculos_sup]},
+              {licenses,["Apache-2.0"]},
+              {links,[]}]}.
